@@ -1,0 +1,30 @@
+version: "2"
+checks:
+  argument-count:
+    enabled: false
+  file-lines:
+    enabled: false
+  method-lines:
+    enabled: false
+  method-complexity:
+    config:
+      threshold: 15
+  method-count:
+    enabled: false
+  similar-code:
+    enabled: true
+    config:
+      threshold: 400
+plugins:
+  eslint:
+    enabled: true
+    channel: "eslint-6"
+exclude_patterns:
+    - "**/build/"
+    - ".vscode/"
+    - ".github"
+    - "**/config/"
+    - "**/tests/"
+    - "**/coverage/"
+    - "**/node_modules/"
+    - "**/*.spec.ts"
