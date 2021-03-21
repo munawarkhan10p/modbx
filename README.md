@@ -1,12 +1,20 @@
 <a href="https://codeclimate.com/github/munawarkhan10p/modbx/maintainability"><img src="https://api.codeclimate.com/v1/badges/64d2756d52a6ae4bd135/maintainability" /></a>
 
-# modbx
-Restapi
+# Restapi
+Made a simple REST API server as a sample project with the following technologies:
+
+- ExpressJS
+- TypeORM
+- Swagger
+- Postgres
+- Docker
+- kubernetes
 
 ## Step to run project
 - 1-Clone repository
 - 2-Run docker-compose up --build
 - 3-For authentication use username **admin@modbx.com** and password **helloworld**
+- The API will be served at http://localhost:3000/ and the documentation must be accessible at http://localhost:3001/.
 
 ## Code Climate
  For code quality code climate is used also have other options like sonar.
