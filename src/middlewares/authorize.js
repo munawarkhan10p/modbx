@@ -17,6 +17,7 @@ exports.authorize = async (req, res, next) => {
         const claims = verifyAuthToken(token);
 
         const user = await findUserByID(claims.userId);
+
         req.user = user;
 
         return next();
