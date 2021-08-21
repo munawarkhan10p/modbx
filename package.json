@@ -25,7 +25,7 @@
     "pg": "^7.17.1",
     "swagger-jsdoc": "^4.0.0",
     "ts-jest": "^26.5.6",
-    "typeorm": "^0.2.35",
+    "typeorm": "^0.2.36",
     "yahoo-finance": "^0.3.7"
   },
   "devDependencies": {
