@@ -8,6 +8,6 @@ const wrapAsync = (fn = (req, res, next)) => {
         }
     };
 };
-// adding comment for checking gpg keys
+// adding comment for gpg
 
 module.exports = wrapAsync;
